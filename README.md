@@ -1,10 +1,10 @@
 # Chest X-Ray Pneumonia Classification using Transfer Learning
 
-A deep learning project comparing four different transfer-learning strategies for detecting pneumonia from chest X-ray images, built using PyTorch and a pretrained ResNet-18 backbone. Developed as part of preparation for the Mitacs Globalink Research Internship application.
+A deep learning project comparing four different transfer-learning strategies for detecting pneumonia from chest X-ray images, built using PyTorch and a pretrained ResNet-18 backbone. 
 
 ## Overview
 
-Pneumonia diagnosis from chest X-rays is a well-studied medical imaging task, commonly used as a benchmark for evaluating transfer-learning approaches in low-data medical settings. This project explores how much of a pretrained ImageNet network needs to be fine-tuned to get reliable, generalizable performance on a relatively small, imbalanced medical dataset — and finds a counter-intuitive result: less fine-tuning generalized better than more.
+Pneumonia diagnosis from chest X-rays is a well-studied medical imaging task, commonly used as a benchmark for evaluating transfer-learning approaches in low-data medical settings. This project explores how much of a pretrained ImageNet network needs to be fine-tuned to get reliable, generalizable performance on a relatively small, imbalanced medical dataset and finds a counter-intuitive result: less fine-tuning generalized better than more.
 
 ## Dataset
 
