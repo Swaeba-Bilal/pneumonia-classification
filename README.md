@@ -67,19 +67,6 @@ Class-weighted loss (Experiments 1, 2) was also found to bias predictions toward
 - NORMAL: 96% precision, 70% recall
 - PNEUMONIA: 84% precision, 98% recall
 
-## Project Structure
-pneumonia-classification/
-├── Notebooks/
-│ └── My_Project.ipynb # Full pipeline: data loading through evaluation
-├── models/
-│ ├── best_model.pth # Experiment 1
-│ ├── best_model_regularized.pth # Experiment 2
-│ ├── best_model_frozen.pth # Experiment 3 (final)
-│ └── best_model_partial_unfreeze.pth
-├── results/
-│ ├── figures/ # Confusion matrices, training curves
-│ └── logs/ # Per-epoch training history (JSON)
-└── README.md
 
 
 ## Tools & Libraries
